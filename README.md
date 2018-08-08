@@ -62,7 +62,7 @@ To create and view existents volumes:
   $ docker volume inspect nginx-html
   ```
 
-To add data to Docker volume copy files at directori indicated on <docker volume inspect>
+To add data to Docker volume copy files at directori indicated on ```$ docker volume inspect```
  ```
   $ sudo cp src/ /var/lib/docker/volumes/nginx-html/_data/
   ```
