@@ -32,7 +32,7 @@ The image docker-nginxphp:latest has been created with a size of 106MB
   ### 3b. ... with data & files in server filesystem
 
   ```
-  $ docker run -d --name nginx --net=host -v /var/www/html:/var/www/html docker-nginxphp:latest
+  $ docker run -d --name nginx --net=host docker-nginxphp:latest
   ```
 
   ### 3c. ... with data & files in a Docker volume
