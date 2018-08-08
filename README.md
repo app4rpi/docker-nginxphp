@@ -51,6 +51,7 @@ $ docker run -d --restart always --name nginx --net=host -v /var/media:/media do
 The configuration file of the program that is fixed when compiling the image in ./config directory
 
 The port of service has been fixed at 80
+
 The internal data directory is set to "/var/www/html"
 
 ## Creation and use of Docker volume
