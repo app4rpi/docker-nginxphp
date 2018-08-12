@@ -33,7 +33,7 @@ The image docker-nginxphp:latest has been created with a size of 106MB
   ```
 ## 4. Run Nginx & PHP7 in a container and start automatically
 ```
-$ docker run -d --restart always --name nginx --net=host -v /var/media:/media docker-nginxphp:latest
+$ docker run -d --restart always --name nginx --net=host -v /var/www/html:/var/www/html docker-nginxphp:latest
 ```
 ## Configuration of Web Directory
 The configuration file of the program that is fixed when compiling the image in ./config directory
